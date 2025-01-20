@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* 
+56px = 47px
+61px = 51px
 32px = 27px
 30px = 25px
 20px = 17px
@@ -88,19 +90,19 @@ nav ul li a {
 }
 
 ul li .home {
-   color: #FEA301;
+   color: #fea301;
 }
 
 ul li .about {
-   color: #01ACFD;
+   color: #01acfd;
 }
 
 ul li .facilities {
-   color: #05D4DF;
+   color: #05d4df;
 }
 
 ul li .admission {
-   color: #5D58EF;
+   color: #5d58ef;
 }
 
 .nav-btn {
@@ -114,8 +116,101 @@ ul li .admission {
    background: #e99504;
 }
 
-/*************  *************/
+/************* Banner Section *************/
+.hero {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 42px;
+}
 
-/*************  *************/
+.hero-content h1 {
+   color: #111;
+   font-size: 47px;
+   font-weight: 600;
+   line-height: 51px;
+   width: 73%;
+}
 
-/*************  *************/
+.hero-content p {
+   color: #111;
+   font-size: 17px;
+   font-weight: 400;
+   margin: 20px 0;
+   width: 85%;
+}
+
+.empowering {
+   color: #fea301;
+}
+
+.vision {
+   color: #01acfd;
+}
+
+.hero-btn {
+   color: white;
+   font-weight: 600;
+   background-color: #111;
+}
+
+.hero-btn:hover {
+   background-color: #424242;
+}
+
+
+
+
+/************* Standard Curriculum Section *************/
+
+
+
+
+
+/************* Our Stories Section  *************/
+
+
+
+
+
+/************* Footer Section *************/
+
+
+
+
+/************* Media Query *************/
+
+@media screen and (max-width: 576px) {
+   /************* Navbar Area *************/
+   
+
+   /************* Banner Section *************/
+   .hero {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0;
+   }
+
+   .hero-image {
+      width: 100%;
+      margin: 0 auto;
+   }
+
+   .hero-image img {
+      width: 90%;
+      margin: 0 auto;
+   }
+
+   .hero-content h1 {
+      width: 100%;
+      font-size: 42px;
+      text-align: center;
+   }
+
+   .hero-content p {
+      width: 100%;
+      text-align: center;
+   }
+}
