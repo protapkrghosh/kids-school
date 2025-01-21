@@ -175,6 +175,10 @@ ul li .admission {
 }
 
 /************* Standard Curriculum Section *************/
+.curriculum-bg {
+   background: url("../assets/bg.png") no-repeat center top;
+}
+
 .custom-bg {
    background-color: #f7f7f7;
 }
