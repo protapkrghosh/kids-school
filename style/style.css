@@ -186,6 +186,7 @@ ul li .admission {
 .custom-padding {
    padding: 51px 0;
 }
+
 .standard-section {
    padding: 68px 0;
 }
@@ -479,6 +480,32 @@ ul li .admission {
    .hero-btn {
       display: flex;
       justify-content: center;
+   }
+
+   /************* Standard Curriculum Section *************/
+   .curriculum-bg-patten {
+      background: url("../assets/bg.png") no-repeat left top;
+      padding: 15px 13px 40px;
+   }
+
+   .section-title {
+      font-size: 26px;
+   }
+
+   .standard-section {
+      padding: 20px 0;
+   }
+
+   .standard-curriculum {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+   }
+
+   .arrow-icons {
+      display: none;
    }
 
    /************* Footer Section *************/
