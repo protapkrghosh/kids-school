@@ -257,44 +257,41 @@ ul li .admission {
 }
 
 .social-media .facebook {
-   background-color: #3B5998;
-   transition: .2s;
+   background-color: #3b5998;
+   transition: 0.2s;
 }
 
 .social-media .facebook:hover i {
    transform: scale(1.2);
-   transition: .2s;
+   transition: 0.2s;
 }
 
 .social-media .dribbble {
-   background-color: #EA4C89;
+   background-color: #ea4c89;
 }
 
 .social-media .dribbble:hover i {
    transform: scale(1.2);
-   transition: .2s;
+   transition: 0.2s;
 }
 
 .social-media .twitter {
-   background-color: #1DA1F2;
+   background-color: #1da1f2;
 }
 
 .social-media .twitter:hover i {
    transform: scale(1.2);
-   transition: .2s;
+   transition: 0.2s;
 }
 
 .social-media .google-plus {
-   background-color: #DD4B39;
+   background-color: #dd4b39;
 }
 
 .social-media .google-plus:hover i {
    transform: scale(1.2);
-   transition: .2s;
+   transition: 0.2s;
 }
-
-
-
 
 /************* Media Query *************/
 @media screen and (max-width: 576px) {
@@ -357,5 +354,23 @@ ul li .admission {
    .hero-btn {
       display: flex;
       justify-content: center;
+   }
+
+   /************* Footer Section *************/
+   .footer-kids {
+      padding: 55px 20px 65px;
+   }
+
+   .footer-content {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      /* display: flex;
+      justify-content: space-between; */
+   }
+
+   .about-school {
+      display: flex;
+      justify-content: start;
+      margin: 27px 0;
    }
 }
