@@ -124,6 +124,20 @@ ul li .admission {
 
 
 /************* Banner Section *************/
+.marquee-area {
+   color: #77abf8d8;
+   font-size: 17px;
+   font-style: italic;
+   border: 2px solid #e7e7e759;
+   padding: 10px 0;
+   border-left: none;
+   border-right: none;
+}
+
+
+
+
+/************* Banner Section *************/
 .hero {
    display: flex;
    justify-content: space-between;
