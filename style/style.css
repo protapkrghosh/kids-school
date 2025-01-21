@@ -180,18 +180,38 @@ ul li .admission {
    background-color: #424242;
 }
 
+
+
+
+
 /************* Standard Curriculum Section *************/
+
+
+
+
 
 /************* Our Stories Section  *************/
 
+
+
+
+
 /************* Footer Section *************/
 
+
+
+
+
 /************* Media Query *************/
+
+
+
+
 
 @media screen and (max-width: 576px) {
 
    /************* Mobile navbar style *************/
-   main {
+   section {
       padding: 0 13px;
    }
 
