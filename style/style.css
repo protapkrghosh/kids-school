@@ -188,8 +188,6 @@ ul li .admission {
 .footer-content {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   /* display: flex;
-   justify-content: space-between; */
 }
 
 .foot-logo {
@@ -364,8 +362,6 @@ ul li .admission {
    .footer-content {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
-      /* display: flex;
-      justify-content: space-between; */
    }
 
    .about-school {
