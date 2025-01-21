@@ -68,6 +68,10 @@ Paragraph = #808080
    margin-right: 11px;
 }
 
+.mobile-navbar {
+   display: none;
+}
+
 nav {
    display: flex;
    justify-content: space-between;
@@ -116,12 +120,16 @@ ul li .admission {
    background: #e99504;
 }
 
+
+
+
 /************* Banner Section *************/
 .hero {
    display: flex;
    justify-content: space-between;
    align-items: center;
    gap: 42px;
+   margin-top: 22px;
 }
 
 .hero-content h1 {
@@ -158,31 +166,39 @@ ul li .admission {
    background-color: #424242;
 }
 
-
-
-
 /************* Standard Curriculum Section *************/
-
-
-
-
 
 /************* Our Stories Section  *************/
 
-
-
-
-
 /************* Footer Section *************/
-
-
-
 
 /************* Media Query *************/
 
 @media screen and (max-width: 576px) {
-   /************* Navbar Area *************/
-   
+
+   /************* Mobile navbar style *************/
+   main {
+      padding: 0 13px;
+   }
+
+   .desktop-navbar {
+      display: none;
+   }
+
+   .mobile-navbar {
+      display: block;
+      padding: 10px 13px 0;
+      border-bottom: 0.5px solid #FEA301;
+   }
+
+   .sm-logo img {
+      width: 40px;
+      height: 40px;
+   }
+
+   .mobile-navbar > nav .menu-icon {
+      font-size: 23px;
+   }
 
    /************* Banner Section *************/
    .hero {
