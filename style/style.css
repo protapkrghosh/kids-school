@@ -588,7 +588,7 @@ ul li .admission {
    }
 
    .hero-image img {
-      width: 95%;
+      width: 100%;
    }
 
    .hero-content h1 {
@@ -613,7 +613,7 @@ ul li .admission {
    /************* Standard Curriculum Section *************/
    .curriculum-bg-patten {
       background: url("../assets/bg.png") no-repeat left top;
-      padding: 15px 13px 40px;
+      padding: 15px 13px 0px;
    }
 
    .section-title {
@@ -636,9 +636,64 @@ ul li .admission {
       display: none;
    }
 
+   /************* Our Stories Section *************/
+   .stories-bg1 {
+      background: url("../assets/bg.png") no-repeat center top;
+   }
+
+   .stories-bg2 {
+      background: none;
+   }
+
+   .stories {
+      padding: 0 0 51px;
+   }
+
+   .stories-container {
+      gap: 13px;
+      padding: 30px 0 40px;
+   }
+
+   .featured-one {
+      display: none;
+   }
+
+   .featured-two {
+      width: 100%;
+      padding: 0 13px;
+   }
+
+   .featured-container {
+      gap: 13px;
+   }
+
+   .sectionTwo {
+      margin-top: 13px;
+   }
+
+   .sub-featured-one h3 {
+      font-size: 10px;
+      line-height: 17px;
+      width: 70%;
+      margin: 25px 0 22px 25px;
+   }
+
+   .date {
+      padding: 3px 10px;
+      margin: -20px 0 0 22px;
+   }
+
+   .sub-featured-one .img-card img {
+      height: 125px;
+   }
+
+   .btn {
+      padding: 7px 10px;
+   }
+
    /************* Footer Section *************/
    .footer-kids {
-      padding: 55px 20px 65px;
+      padding: 55px 13px 65px;
    }
 
    .footer-content {
