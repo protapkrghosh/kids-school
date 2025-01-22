@@ -336,11 +336,30 @@ ul li .admission {
    line-height: 23px;
    text-transform: capitalize;
    border-radius: 47.934px;
-   background: #3cd8e8;
    width: fit-content;
    padding: 5px 13px;
    margin: -20px 0 0 32px;
    z-index: 999;
+}
+
+.date-bg1 {
+   background: #3cd8e8;
+}
+
+.date-bg2 {
+   background: #95B226;
+}
+
+.date-bg3 {
+   background: #5D58F0;
+}
+
+.date-bg4 {
+   background: #77abf8;
+}
+
+.date-bg5 {
+   background: #FEA301;
 }
 
 .img-card .date {
