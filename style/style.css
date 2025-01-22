@@ -367,14 +367,29 @@ ul li .admission {
    width: 80%;
 }
 
+/* Featured-two */
+.featured-two {
+   width: 50%;
+}
+
 .featured-container {
    display: flex;
    justify-content: space-between;
    gap: 16px;
 }
 
-.featured-two {
-   width: 50%;
+.sub-featured-one {
+   background-color: #fff;
+   border-radius: 16px;
+}
+
+.sub-featured-one h3 {
+   color: #000;
+   font-size: 15px;
+   font-weight: 700;
+   line-height: 23px;
+   margin: 36px 0 28px 36px;
+   width: 80%;
 }
 
 /************* Footer Section *************/
