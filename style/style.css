@@ -412,6 +412,7 @@ ul li .admission {
 }
 
 .sub-featured-one {
+   width: 100%;
    background-color: #fff;
    border-radius: 16px;
 }
@@ -432,6 +433,10 @@ ul li .admission {
 .view-btn {
    display: flex;
    justify-content: center;
+}
+
+.mobile-featured-card {
+   display: none;
 }
 
 /************* Footer Section *************/
@@ -683,12 +688,21 @@ ul li .admission {
       margin: -20px 0 0 22px;
    }
 
+    .sub-featured-one{
+      width: 100%;
+   }
+
    .sub-featured-one .img-card img {
+      width: 100%;
       height: 125px;
    }
 
    .btn {
       padding: 7px 10px;
+   }
+
+   .mobile-featured-card {
+      display: block;
    }
 
    /************* Footer Section *************/
