@@ -305,6 +305,82 @@ ul li .admission {
 }
 
 /************* Our Stories Section  *************/
+.stories {
+   padding: 51px 0;
+}
+
+.stories-card-container {
+   padding: 68px 0;
+   display: flex;
+   justify-content: center;
+   align-items: start;
+}
+
+.card-bg {
+   background-color: #fff;
+}
+
+/* Stories card one */
+.stories-card-one {
+   border-radius: 16px;
+}
+
+.stories-card-one .bg-image-one {
+   width: 460px;
+   height: 286px;
+   /* width: 540px;
+   height: 337px; */
+   border-radius: 16px 16px 0px 0px;
+   background-image: url("../assets/story-1.png");
+}
+
+.stories-card-one .date {
+   color: #fff;
+   font-size: 12px;
+   font-weight: 500;
+   line-height: 23px;
+   text-transform: capitalize;
+   border-radius: 47.934px;
+   background: #3cd8e8;
+   width: fit-content;
+   padding: 5px 13px;
+   margin: -18px 0 0 32px;
+   z-index: 999;
+}
+
+.stories-card-one h3 {
+   color: #000;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 32px;
+   margin: 30px 0 43px 0;
+   padding: 0 29px;
+}
+
+.stories-card-one p {
+   color: #666;
+   font-size: 12px;
+   font-weight: 500;
+   line-height: 23px;
+   padding: 0 29px 32px;
+}
+
+.story-card-two {
+   display: flex;
+   justify-content: space-between;
+   align-items: start;
+}
+
+
+/* Stories card two */
+.stories-card-two .bg-image-two {
+   /* width: 247px;
+   height: 133px; */
+   width: 291px;
+   height: 157px;
+   border-radius: 16px 16px 0px 0px;
+   background-image: url("../assets/story-2.png");
+}
 
 /************* Footer Section *************/
 .footer-kids {
