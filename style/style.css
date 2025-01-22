@@ -314,6 +314,7 @@ ul li .admission {
    display: flex;
    justify-content: space-between;
    gap: 16px;
+   padding: 68px 0;
 }
 
 .featured-one {
@@ -418,6 +419,11 @@ ul li .admission {
    line-height: 23px;
    margin: 36px 0 28px 36px;
    width: 80%;
+}
+
+.view-btn {
+   display: flex;
+   justify-content: center;
 }
 
 /************* Footer Section *************/
