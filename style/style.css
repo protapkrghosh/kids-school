@@ -315,6 +315,7 @@ ul li .admission {
    justify-content: space-between;
    gap: 16px;
    padding: 68px 0;
+   background: url("../assets/bg.png") no-repeat center top;
 }
 
 .featured-one {
@@ -348,11 +349,11 @@ ul li .admission {
 }
 
 .date-bg2 {
-   background: #95B226;
+   background: #95b226;
 }
 
 .date-bg3 {
-   background: #5D58F0;
+   background: #5d58f0;
 }
 
 .date-bg4 {
@@ -360,7 +361,7 @@ ul li .admission {
 }
 
 .date-bg5 {
-   background: #FEA301;
+   background: #fea301;
 }
 
 .img-card .date {
