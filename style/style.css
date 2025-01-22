@@ -1,25 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
-/* 
-56px = 47px
-61px = 51px
-32px = 27px
-30px = 25px
-20px = 17px
-500 = 425
-600 = 510
-700 = 595
-
-Color Code
-Orange = #FEA301
-Sky-blue = #01ACFD
-Black = #111
-Paragraph = #808080 
-.facilities = #05D4DF
-.admission = #5D58EF
-
-*/
-
 * {
    margin: 0;
    padding: 0;
@@ -29,14 +9,6 @@ Paragraph = #808080
 .container {
    max-width: 1160px;
    margin: 0 auto;
-}
-
-.font-quicksand {
-   font-family: "Quicksand", sans-serif;
-}
-
-.font-raleway {
-   font-family: "Raleway", sans-serif;
 }
 
 /************* Shared Style *************/
@@ -50,6 +22,14 @@ Paragraph = #808080
    padding: 10px;
    cursor: pointer;
    transition: 0.4s;
+}
+
+.font-quicksand {
+   font-family: "Quicksand", sans-serif;
+}
+
+.font-raleway {
+   font-family: "Raleway", sans-serif;
 }
 
 /************* Navbar style *************/
@@ -126,9 +106,7 @@ ul li .admission {
    font-size: 17px;
    font-style: italic;
    padding: 10px 0;
-   border-left: none;
-   border-right: none;
-   background-color: #f7f7f763;
+   background-color: #f7f7f77c;
 }
 
 /************* Banner Section *************/
@@ -554,7 +532,7 @@ ul li .admission {
 
 /************* Media Query *************/
 @media screen and (max-width: 576px) {
-   /************* Mobile navbar style *************/
+   /****** Mobile navbar style ******/
    section {
       padding: 0 13px;
    }
@@ -688,7 +666,7 @@ ul li .admission {
       margin: -20px 0 0 22px;
    }
 
-    .sub-featured-one{
+   .sub-featured-one {
       width: 100%;
    }
 
